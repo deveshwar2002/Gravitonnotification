@@ -18,7 +18,8 @@ export enum WorkflowStage {
   NOTES = 'Notes',
   RECOMMENDATION = 'Recommendation',
   REJECTED = 'Rejected',
-  SKIP = 'Skip'
+  SKIP = 'Skip',
+  APPROVE = "Approve"
 }
 
 export const WORKFLOW_STAGES = [
@@ -34,7 +35,8 @@ export const WORKFLOW_STAGES = [
   WorkflowStage.NOTES,
   WorkflowStage.RECOMMENDATION,
   WorkflowStage.REJECTED,
-  WorkflowStage.SKIP
+  WorkflowStage.SKIP,
+  WorkflowStage.APPROVE
 ];
 
 export const MOCK_USERS = [
